@@ -8,7 +8,7 @@ todos = {}
 
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'flask rest api sample '}
+        return {'hello': 'flask rest api sample'}
 
 api.add_resource(HelloWorld, '/')
 
